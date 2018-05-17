@@ -1,11 +1,11 @@
 //  === CONFIG ===
-const FIREWORK_ACCELERATION = 1.05;
+const FIREWORK_ACCELERATION = 1.001;
 // Minimum firework brightness.
 const FIREWORK_BRIGHTNESS_MIN = 50;
 // Maximum firework brightness.
 const FIREWORK_BRIGHTNESS_MAX = 70;
 // Base speed of fireworks.
-const FIREWORK_SPEED = 5;
+const FIREWORK_SPEED = 3;
 // Base length of firework trails.
 const FIREWORK_TRAIL_LENGTH = 3;
 // Determine if target position indicator is enabled.
@@ -28,7 +28,7 @@ const PARTICLE_FRICTION = 0.95;
 // How quickly particles move toward a downward trajectory.
 const PARTICLE_GRAVITY = 0.7;
 // Variance in particle coloration.
-const PARTICLE_HUE_VARIANCE = 20;
+const PARTICLE_HUE_VARIANCE = 50;
 // Base particle transparency.
 const PARTICLE_TRANSPARENCY = 1;
 // Minimum particle speed.
@@ -42,7 +42,7 @@ const PARTICLE_TRAIL_LENGTH = 5;
 // Lower value increases trail duration.
 const CANVAS_CLEANUP_ALPHA = 0.3;
 // Hue change per loop, used to rotate through different firework colors.
-const HUE_STEP_INCREASE = 0.5;
+const HUE_STEP_INCREASE = 0.75;
 
 // Minimum number of ticks per manual firework launch.
 const TICKS_PER_FIREWORK_MIN = 5;
